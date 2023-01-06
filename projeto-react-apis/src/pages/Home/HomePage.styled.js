@@ -27,7 +27,7 @@ export const Header = styled.div`
 
 
 export const Body = styled.div`
-    background-color: gray;
+    background-color: #61626f;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
