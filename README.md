@@ -30,4 +30,4 @@ Os conteúdos principais  a serem estudados são:
 	- [ ] Header deve ter um botão para adicionar ou remover da Pokedex e outro para voltar a página home.
 - [ ] [Criar um readme](https://www.youtube.com/watch?v=1QKwP0SJK-c "Crie um readme") para o projeto;
 
-
+Link do deploy: https://rightful-hearing.surge.sh/
