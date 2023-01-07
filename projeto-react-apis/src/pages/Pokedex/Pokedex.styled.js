@@ -2,9 +2,9 @@ import styled from 'styled-components'
 
 export const HeaderContainer = styled.div`
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
-    padding: 20px;
+    padding: 2px;
     margin-bottom: 20px;
     padding-right: 480px;
     img{
@@ -27,7 +27,7 @@ export const Body = styled.div`
     flex-wrap: wrap;
     flex-direction: column;
 
-    height: max-content;
+    height:max-content;
 
     justify-content: space-around;
 `

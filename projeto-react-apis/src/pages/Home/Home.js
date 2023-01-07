@@ -5,7 +5,7 @@ import { Header, Body  } from './HomePage.styled'
 import { pokedexPage } from '../../route/Coordinator'
 import { useNavigate } from 'react-router-dom'
 import CardComponent from '../../components/CardComponent/CardComponent.js'
-import "./Home.css";
+import {HeaderContainer } from './HomePage.styled'
 
 function Home()  {
 
@@ -25,11 +25,11 @@ function Home()  {
         <>
             <Header>
                 <img src={logoHeader} alt="Pokemon" />
-                <button onClick={() => pokedexPage(navigate)}>Pokedéx</button>
+                <button onClick={() => pokedexPage(navigate)}>Pokédex</button>
             </Header>
 
             <Body>
-                <h1> Todos Pokémons</h1> 
+                <HeaderContainer> <h1>Todos Pokémons</h1> </HeaderContainer> 
                 
                 {pokemonList.map((item) => {
                     return (

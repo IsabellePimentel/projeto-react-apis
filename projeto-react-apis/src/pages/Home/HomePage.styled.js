@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 export const Header = styled.div`
 	display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     padding-left: 400px;
     margin-bottom: 20px;
@@ -32,3 +32,11 @@ export const Body = styled.div`
     flex-wrap: wrap;
     justify-content: space-around;
 `
+
+export const HeaderContainer = styled.div`
+width: 100%;
+color: #DDDDDD;
+margin: 20px 0px 0px 20px;
+
+`
+

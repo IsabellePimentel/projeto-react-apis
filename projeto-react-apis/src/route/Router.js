@@ -1,6 +1,7 @@
 import {BrowserRouter, Routes, Route} from "react-router-dom"
 import Home from "../pages/Home/Home"
 import Pokedex from "../pages/Pokedex/Pokedex";
+import Detalhes from "../pages/Detalhes/Detalhes";
 
 function Router() {
 
@@ -9,6 +10,7 @@ function Router() {
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/pokedex" element={<Pokedex />} />
+                <Route path="/detalhes/:id" element={<Detalhes />} />
             </Routes>
         </BrowserRouter>
     );
