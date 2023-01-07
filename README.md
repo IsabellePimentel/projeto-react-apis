@@ -10,15 +10,6 @@ Os conteúdos principais  a serem estudados são:
 - Design Systems
 - Estado Global
 
-## **Enunciado**
-É objetivo deste projeto criar um site com três páginas usando a Poke Api com as seguintes ferramentas:
-
-- React
-- React Router
-- Styled-components
-- React Context
-- Axios
-
 ### **Requisitos**
 - **Gerais:**
 	- [ ] O site deve ter 3 páginas: Home, Pokedex e Detalhes;
