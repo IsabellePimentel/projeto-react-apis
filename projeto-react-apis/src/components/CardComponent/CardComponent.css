@@ -1,0 +1,89 @@
+#heading2 {
+    font-weight: 700;
+    font-size: 48px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+#text2 {
+    text-align: center;
+    font-weight: bold;
+}
+
+#modal2 {
+    width: 20vw;
+    height: 20vh;
+    margin: 0 auto;
+}
+
+#btnCapturar2 {
+    width: 150px;
+    height: 30px;
+    background-color: white;
+    border-radius: 8px;
+    border: none;
+    color: black;
+}
+
+#btnDetalhes2 {
+    background-color: transparent;
+    color: white;
+    text-decoration: underline;
+    width: 150px;
+    border: none;
+    font-size: medium;
+}
+
+#stackBtn2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 15px;
+}
+
+#imgPokemon2 {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    bottom: 50px;
+    right: 5px;
+}
+
+#txtId2 {
+    font-size: 16px;
+    color: white;
+    margin-top: 20px;
+    padding-left: 15px;
+}
+
+#txtName2 {
+    text-transform: capitalize;
+    font-size: 28px;
+    padding-left: 15px;
+    color: white;
+}
+
+
+#stackTipoPokemon2 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+#imgTipoPokemon2 {
+    padding-left: 15px;
+    margin-top: 20px;
+}
+
+#stackImgPokemon2 {
+    display: flex;
+    flex-direction: row;
+}
+
+#card2 {
+    background-repeat: no-repeat;
+    background-position: 100%;
+    border-radius: 20px ;
+    width: 420px;
+    margin-top: 70px;
+}
